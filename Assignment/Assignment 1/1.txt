@@ -1,0 +1,94 @@
+Assignment 1
+Student Name:Sija Magar
+Rollno:31
+CHAPTER  1: AN OVERVIEW OF THE INTERNET AND THE WEB
+                                  Group A
+                                  
+1.Define term "protocol" in the contex of the Internet.
+Ans: In the context of the Internet,Protocol is the set of rules that helps devices to communicate and exchange data with eachother.
+
+2.What is the primary difference between a Web Browser and a search Engine?
+Ans: web browser is a software thats lets you access and view websites like Chrome,Firefox,Safari,while a search engine is a website or a service that helps you to find specific information on the web using keywords like Google,Bing,Yahoo.
+
+3.Define the World Wide Web (WWW).
+Ans: World Wide Web is a system of interconnected public web pages and resources that are accessible via internet through web browsers.
+
+4.Distinguish between a Static web page and a dynamic web page.
+Ans: Static web page shows the same content same time  they are viewed while,dynamic web pages have content that can chnange each time they accessed.
+
+                                 Group B
+                               
+5.  Explain the client server architecture of the web with a neat diagram.
+Ans: Client server architecture is a fundamental concept in system design . Clients are the devices/users that request s for the servers ,data and information while server serves the client with the services and request by the the client. If the srver fails,the whole system crashes, This system allows many clients to access same server at the same time.
+
+            
+              Client(Browser) ....>  Server(Web app) ....>  Client(Browser)
+                                ^                      ^
+                                |                      |
+                              HTTP request           HTTP response
+                              
+
+6. Descibe the functions of the following Internet services:Email,FTP,and Voip.
+Ans: The functions of the following Internet services are as follows:
+  i. Email(Electronic Mail)
+  - Send and receive messege instantly.
+  - Share files, documents and images.
+  - keep a record of conversations.
+  - Communicate with multiple people .
+
+  ii.FTP(File Transfer Protocol)
+  - Transfer files between computers over the internet.
+  - Upload files to a server using internet.
+  - Download files from a  server using internet.
+  - Manage files on a remote server(rename, delete or organize).
+
+  iii.Voip(Voice Over Internet Protocol)
+  - Makes voice calls over the internet.
+  - Support video calls and conferencing.
+  - Enable  communication from anywhere with an internet connection.
+  - Reduce long distnace call costs.
+
+  7. "The Internet is network of networks." Elaborate on this statement explaining how packet switching works.
+  Ans: The internet is a network of networs because it connects with many samaller networks (home,school,office,ISP,networks) accros the world into a global system.
+    
+     Here's how the packet switching works:
+      - Packet switching works by brecking data into small packets.
+      - Each packet travells idependently through different networks using best available paths chosen by the routers.
+      - When all the packets reach the destination , they are reassembled in the correct order to form the original data.
+      - This makes communication fast ,efficient, and relaiable.
+
+                                 Group C
+
+8. A startup company wants to host a website that displays the same information to all the visitors and requires very low maintainanace costs. However they are being advised to use a dynamic website.As a consultant, would you agree? justify your answer.
+Ans: As a consultnat , i would not agree with using a dynamic website for this requirement.
+   Justification:
+   - The website displays the same information to all the visitors , so threre is no need for a dynamic content.
+   - Static websites are cheaper,easier to maintain, and do not require database or server-side processing .
+   - Static sites load faster and have fewer security risks.
+   - Dynamic websites increases cost, complexity, and maintainanace, which is unnecessary for this use case.
+
+9. A user types www.google.com into their browser, but the browser displays a "Server Not Found" error, even though the internet connection is active . However, accesssing website via 142.250.190.46 works. Dignose the problem and explain the underlying technology that failed.
+Ans: The problem is DNS failure.
+   The browser cannot open www.google.com , but it works when using 142.250.190.46(an ip address) . This means:
+   - The internet connection is working.
+   - The web server is reachable.
+   - But the domain is not being translated into an ip address.
+   Underlying technology that failed: DNS(Domain Name System)
+   DNS coverts human readable names like( www.google.com )into ip address like (142.250.190.46) that computers understand.
+   When the users types www.google.com:
+   -The browser asks a DNS server for IP address.
+   -DNS should return the IP of a Google.
+   -The browser connects that IP.
+   In this case,DNS did not respond correctly,so the browser shows "Server Not Found".
+   Why the Ip address works, when the user enters 142,250.190.46 directly:
+   - DNS is bypassed
+   - The browser connects straight to server.
+   - The wesite loads sucessfully.
+
+10. A multinational coorporation wants to share sensititve inventory data with specific suppliers but does not wants to share sensitive inventory data with a specific suppliers but does not want this information available to the general public . Explain which network type (Intranet,Extranet,or Internet) they should implement and why?
+Ans:The company should implement an Extranet.
+   Reason:
+   - An intranet is a private and used only within the organization, so the suppliers cannot access it.
+   - The internet is public , so the sensitive inventory data would be accessible to everyone.
+   - An extranet allows a company to securely share specific information with external partners (such as suppliers) while keeping it hidden from the general public.
+                                 
