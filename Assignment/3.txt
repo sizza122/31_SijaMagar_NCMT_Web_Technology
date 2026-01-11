@@ -1,0 +1,100 @@
+                        CHAPTER 3
+                        WEBSITE STRUCTURE AND DESIGN
+
+                        (Group A)
+
+1.Define Information Architecture(IA)
+Ans: Information Archicture is a practise of organizing or structuring data and information so that the users can easily find and understand the website or the information system.
+
+2.What is a "Wireframe"?
+Ans:A wireframe is a basic visual blueprint of a website or app that shows how the content and features will be structured and arranged , without focusing on colors, img, or detailed design.
+
+3.Explain the concept of "Cognitive Friction" in web design.
+Ans: Cognitive fiction in web design means, anything on a website that makes users think too hard or feel confused while using it ,mental effort required for users to understand and navigate a website.
+
+4.Why should URL slugs use hypens instend of underscores?
+Ans:URL slugs use hypens instead of underscores because search engine recognize hypens as word separators, making URLs easier to read and understand, this improves SEO and user readability , while underscores can cause words to be interpreted as a single term.
+
+                     (Group B)
+
+5. Compare and contrast Hierarchical (Tree) structure and Linear (sequencial) structure.Give an example of when to use each.
+Ans: -Hierarchical (tree) structure organizes information in levels , with a main parent and multiple sub pages, making it suitable for large websites with many categories (eg. a university website with faculties -> departments -> cources). it allows easy navigation and clear relationships between pages.
+    -Linear (sequencial) structure presents pages in a fixed order , one after another , making it ideal for step by step processes (e.g. an online exam , cheakout process, or tutorial). it is simple but offers limited navigation flexibility.
+
+6.Explain the "Three click Rule" and its significance in user experience (UX) design.
+Ans:The three click rule means users should find information within three click
+ - It helps keep navigation simple and clear.
+ - Reduces user frustration and confusion.
+ - Improves usability and user satisfaction.
+ - Encourages better site structure and UX design.
+
+ 7."Plan before you do". Explain how tools like card sorting and flowcharts help in planning a website's structure.
+ Ans: "Plan before you do" means organizing ideas before designing or coding a website.
+- Card Sorting
+  It helps in group content logically based on how users think , making navigation clear and user friendly.
+
+- Flowcharts 
+  It shows the step by step movement of users between pages , helping plan user flow and site structure.
+
+  Together these tools reduce confusion, improve usability , and save time by fixing issues early in the planning phase.
+
+                 (Group C)
+
+8. You are designing a website for a University . It has hundreds of pages(Admissions, Department, Almuni , News).Which  structural model would you choose? Draw a rough diagram and justify your choice.
+Ans:Structural Model Chosen: Hierarchical (Tree) Structure
+   Justification:
+   - A university website has hundreds of pages , so a hierarchical strucutre helps organize content clearly.
+   - Information can be grouped into main categories (Admissions, Departments, Alumni,News).
+   - Users can easily navigate from general to specific information.
+   - It is scalable , meaning new pages or departments can be added easily.
+   - Improves usability and findability for students , staff and visitors.
+ Rough Diagram(Text - Based)
+ Home 
+ |----------Admissions
+           -Under Graduate
+           -Post Graduate
+           -Scholarships
+
+| ----------Departments
+          - Computer Science
+          -Business
+          -Engineering
+          
+| ---------Alumni
+          - Events
+          -Careers
+
+|-----------News
+          - Announcements
+          -Events
+
+9. A  user visits a website but leaves within 10 seconds because they cannot find the navigation menu, which is hidden behind a small icon on a desksktop screen .Analyize this design failure using the "KISS"(keep it simple ) principle.
+Ans:Using the KISS (Keep it Simple) principle, this is a clear design failure:
+
+- The navigation menu is hidden behind a samall icon , which is unnecessary on a desktop screen.
+- KISS emphasizes simplicity and clarity, but hiding essential navigation makes the site harder to use.
+- Users should not have to think or search for basic features like menus.
+- This increases confusion and frustration , causing the user to leave quickly.
+-A simple visible menu would make navigation obvious and improve usability.
+
+10.An ecommerce website has a URL structure like www.shop.com/prod? idd=55&cat=9. Explain why this is bad for both users and Search Engine (SEo) and propose a better structure using page slugs.
+Ans:The URL www.shop.com/prod?idd=55&cat=9 ids bad for users and SEO because:
+Problems: 
+
+-Unreadable and confusing for users- they cannot understand what the page is about.
+-Not SEO friendly:search engine struggle to extract keywords from query parameters.
+-Hard to share or remember: long query strings are inconvient.
+Better Approach (using page slugs)
+use descritive words separated by hypens.
+ex:www.shop.com/laptops/dell-inspiron-15
+
+Benefits:
+-Users can understand the page content from the URL.
+-Search engine can recognize keywords, improving SEO.
+-URLs are clean ,memorable,and shareable.
+
+           
+
+                        
+
+                        
